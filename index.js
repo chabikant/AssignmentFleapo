@@ -7,6 +7,8 @@ window.addEventListener('resize', function() {
 
 window.dispatchEvent(new Event('resize'));
 
+
+
 function toggleSidebar() {
   var sidebar = document.getElementById("sidebar");
   if (sidebar.style.display === 'block') {
